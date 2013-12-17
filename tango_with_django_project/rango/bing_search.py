@@ -3,7 +3,7 @@ import urllib, urllib2
 
 def run_query(search_terms):
 	# Specify the base
-	root_url = 'https://api.datamarket.azure.com/Bing/Search/'
+	root_url = 'https://api.datamarket.azure.com/Bing/Search/v1/'
 	source = 'Web'
 	
 	# Specify how many results we wish to be returned per page.
